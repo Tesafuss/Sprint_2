@@ -3,7 +3,7 @@ package model;
 import model.constants.Discount;
 
 public interface Discountable {
-    default double getDiscount(){
+    default double getDiscount() {
         return Discount.DEFAULT;
     }
 }
